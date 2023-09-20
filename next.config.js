@@ -1,4 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  env: {
+    EMAIL_ACCESS_KEY: process.env.EMAIL_ACCESS_KEY,
+  },
+  webpack: (config, options) => {
+    config.module.rules.push({
+      test: /\.pdf$/i,
+      type: "asset/source",
+    });
 
-module.exports = nextConfig
+    return config;
+  },
+};
+
+module.exports = nextConfig;
