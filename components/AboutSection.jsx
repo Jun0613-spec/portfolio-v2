@@ -5,7 +5,7 @@ const skills = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "JAVA" },
+  { skill: "Java" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
@@ -13,11 +13,9 @@ const skills = [
   { skill: "GitHub" },
   { skill: "Spring Boot" },
   { skill: "MySQL" },
-  { skill: "postgreSQL" },
   { skill: "Jquery" },
   { skill: "NodeJS" },
   { skill: "MongoDB" },
-  { skill: "Docker" },
   { skill: "Debugging" },
 ];
 
