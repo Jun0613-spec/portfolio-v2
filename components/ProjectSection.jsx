@@ -9,7 +9,7 @@ const projectsData = [
   {
     id: 1,
     title: "AI service app",
-    description: "AI platform app with using openAI API",
+    description: "AI platform app with using openAI API, Shadcn UI, Clerk, ",
     image: "/projects/AI.png",
     gitUrl: "https://github.com/Jun0613-spec/AI-platform-nextjs",
     previewUrl: "https://ai-platform-beta.vercel.app/",
@@ -17,7 +17,8 @@ const projectsData = [
   {
     id: 2,
     title: "Booking bnb",
-    description: "Airbnb clone full stack app with NextJS",
+    description:
+      "Full stack Booking app  with Next.js App Router, Prisma, MongoDB, NextAuth",
     image: "/projects/airbnb.png",
     gitUrl: "https://github.com/Jun0613-spec/airbnb-clone-nextjs",
     previewUrl: "https://rent-clone-blush.vercel.app/",
