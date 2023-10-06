@@ -25,11 +25,12 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Full stack Blog web",
-    description: "Blog web using Java, MySql, react(Coming soon)",
-    image: "/images/projects/3.png",
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Realtime chat app",
+    description:
+      "Real-time chat app with using Next.js tailwindCSS, Pisma, MongoDB, Pusher",
+    image: "/projects/messenger.png",
+    gitUrl: "https://github.com/Jun0613-spec/messenger-nextjs",
+    previewUrl: "https://messenger-nextjs-eight.vercel.app/",
   },
 ];
 
