@@ -12,7 +12,7 @@ const skills = [
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Spring Boot" },
-  { skill: "PostgreSQL" },
+  { skill: "MySQL" },
   { skill: "Jquery" },
   { skill: "NodeJS" },
   { skill: "MongoDB" },
