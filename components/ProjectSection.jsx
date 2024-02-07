@@ -8,6 +8,15 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
+    title: "Blog App",
+    description:
+      "Blog app using with React, Typescirpt, Tailwind Css, Spring boot, MySQL",
+    image: "/projects/blogfy.png",
+    gitUrl: "https://github.com/Jun0613-spec/blog-frontend",
+    previewUrl: "https://blog-frontend-one-hazel.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Bitcoin Currency App",
     description:
       "Bitcoin Currency App using with React, Firebase, Bitcoin currenty Api, tailwind css",
@@ -16,7 +25,7 @@ const projectsData = [
     previewUrl: "https://cryptobase-73222.web.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "AI service app",
     description: "AI platform app with using openAI API, Shadcn UI, Clerk, ",
     image: "/projects/AI.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://ai-platform-beta.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Booking bnb",
     description:
       "Full stack Booking app  with Next.js App Router, Prisma, MongoDB, NextAuth",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://rent-clone-blush.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Realtime chat app",
     description:
       "Real-time chat app with using Next.js tailwindCSS, Pisma, MongoDB, Pusher",
