@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 import ProjectCard from "./ProjectCard";
@@ -17,6 +17,15 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Food Ordering App Tap",
+    description:
+      "Food ordering app with React,typescript, cloudinary, stripe, mongoDB, express, nodejs, tailwindCss",
+    image: "/projects/tap.png",
+    gitUrl: "https://github.com/Jun0613-spec/tap-frontend",
+    previewUrl: "https://tap-food-ordering.onrender.com/",
+  },
+  {
+    id: 3,
     title: "Bitcoin Currency App",
     description:
       "Bitcoin Currency App using with React, Firebase, Bitcoin currenty Api, tailwind css",
@@ -25,7 +34,7 @@ const projectsData = [
     previewUrl: "https://cryptobase-73222.web.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "AI service app",
     description: "AI platform app with using openAI API, Shadcn UI, Clerk, ",
     image: "/projects/AI.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "https://ai-platform-beta.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Booking bnb",
     description:
       "Full stack Booking app  with Next.js App Router, Prisma, MongoDB, NextAuth",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://rent-clone-blush.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Realtime chat app",
     description:
       "Real-time chat app with using Next.js tailwindCSS, Pisma, MongoDB, Pusher",
