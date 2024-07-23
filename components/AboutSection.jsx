@@ -16,6 +16,7 @@ const skills = [
   { skill: "Jquery" },
   { skill: "NodeJS" },
   { skill: "MongoDB" },
+  { skill: "Postgresql" },
   { skill: "Debugging" },
 ];
 
