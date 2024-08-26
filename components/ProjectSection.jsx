@@ -59,15 +59,6 @@ const projectsData = [
     gitUrl: "https://github.com/Jun0613-spec/airbnb-clone-nextjs",
     previewUrl: "https://rent-clone-blush.vercel.app/",
   },
-  {
-    id: 7,
-    title: "Realtime chat app",
-    description:
-      "Real-time chat app with using Next.js tailwindCSS, Pisma, MongoDB, Pusher",
-    image: "/projects/messenger.png",
-    gitUrl: "https://github.com/Jun0613-spec/messenger-nextjs",
-    previewUrl: "https://messenger-nextjs-eight.vercel.app/",
-  },
 ];
 
 const ProjectsSection = () => {
