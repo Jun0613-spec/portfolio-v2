@@ -10,7 +10,7 @@ const projectsData = [
     id: 1,
     title: "Graphy",
     description:
-      "Graphy is Full stack graphic design SaaS web application using with React, Next.js, next auth, TailwindCSS, Drizzle ORM, PostgreSQL,Uploadthing, Stripe, Fabric.js, Hono, Replicate for AI image generating",
+      "Graphy is Full stack graphic design SaaS web application using with React, Next.js, next auth, TailwindCSS, Drizzle ORM, PostgreSQL,Uploadthing, Stripe, Fabric.js, Hono, Replicate for AI image generating. for subscription test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
     image: "/projects/graphy.png",
     gitUrl: "https://github.com/Jun0613-spec/graphy",
     previewUrl: "https://graphy-design.vercel.app/",
