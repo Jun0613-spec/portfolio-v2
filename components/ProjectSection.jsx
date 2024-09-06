@@ -8,6 +8,15 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
+    title: "Teammate",
+    description:
+      "Teammate is Full stack team messenger application using with React, Next.js, Auth.js, TailwindCSS, Convex, React hook, test user test@test.com | test1234",
+    image: "/projects/teammate.png",
+    gitUrl: "https://github.com/Jun0613-spec/teammate",
+    previewUrl: "https://teammate-ten.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Graphy",
     description:
       "Graphy is Full stack graphic design SaaS web application using with React, Next.js, next auth, TailwindCSS, Drizzle ORM, PostgreSQL,Uploadthing, Stripe, Fabric.js, Hono, Replicate for AI image generating. for subscription test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
@@ -16,7 +25,7 @@ const projectsData = [
     previewUrl: "https://graphy-design.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Blog App",
     description:
       "Blog app using with React, Typescirpt, Tailwind Css, Spring boot, MySQL",
@@ -25,7 +34,7 @@ const projectsData = [
     previewUrl: "https://blog-frontend-one-hazel.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Food Ordering App Tap",
     description:
       "Food ordering app with React,typescript, cloudinary, stripe, mongoDB, express, nodejs, tailwindCss",
@@ -34,7 +43,7 @@ const projectsData = [
     previewUrl: "https://tap-food-ordering.onrender.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Bitcoin Currency App",
     description:
       "Bitcoin Currency App using with React, Firebase, Bitcoin currenty Api, tailwind css",
@@ -43,7 +52,7 @@ const projectsData = [
     previewUrl: "https://cryptobase-73222.web.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "AI service app",
     description: "AI platform app with using openAI API, Shadcn UI, Clerk, ",
     image: "/projects/AI.png",
@@ -51,7 +60,7 @@ const projectsData = [
     previewUrl: "https://ai-platform-beta.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Booking bnb",
     description:
       "Full stack Booking app  with Next.js App Router, Prisma, MongoDB, NextAuth",
