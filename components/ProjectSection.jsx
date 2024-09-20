@@ -53,14 +53,6 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "AI service app",
-    description: "AI platform app with using openAI API, Shadcn UI, Clerk, ",
-    image: "/projects/AI.png",
-    gitUrl: "https://github.com/Jun0613-spec/AI-platform-nextjs",
-    previewUrl: "https://ai-platform-beta.vercel.app/",
-  },
-  {
-    id: 7,
     title: "Booking bnb",
     description:
       "Full stack Booking app  with Next.js App Router, Prisma, MongoDB, NextAuth",
