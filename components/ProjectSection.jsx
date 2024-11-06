@@ -8,58 +8,72 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Teammate",
+    title: "Planit",
     description:
-      "Teammate is Full stack team messenger application using with React, Next.js, Auth.js, TailwindCSS, Convex, React hook, test user test@test.com | test1234",
-    image: "/projects/teammate.png",
-    gitUrl: "https://github.com/Jun0613-spec/teammate",
-    previewUrl: "https://teammate-ten.vercel.app/",
+      "Planit is Full stack project & task management web application using with React, Next.js, Typescript, NextAuth, TailwindCSS, Drizzle ORM, PostgreSQL, React-query, Hono.js, Cloudinary, Zustand, Shadcn-ui ",
+    subdescription:
+      "Join workspace URL - planit-project.vercel.app/workspaces/7bb0f70c-c439-40f5-b3df-f5ed130cf209/join/O3qt9h",
+    image: "/projects/planit.png",
+    gitUrl: "https://github.com/Jun0613-spec/planit",
+    previewUrl: "https://planit-project.vercel.app/"
   },
   {
     id: 2,
-    title: "Graphy",
+    title: "Teammate",
     description:
-      "Graphy is Full stack graphic design SaaS web application using with React, Next.js, next auth, TailwindCSS, Drizzle ORM, PostgreSQL,Uploadthing, Stripe, Fabric.js, Hono, Replicate for AI image generating. for subscription test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
-    image: "/projects/graphy.png",
-    gitUrl: "https://github.com/Jun0613-spec/graphy",
-    previewUrl: "https://graphy-design.vercel.app/",
+      "Teammate is Full stack team messenger application using with React, Next.js, Auth.js, TailwindCSS, Convex, React hook ",
+    subdescription: "Test user : test@test.com | test1234",
+    image: "/projects/teammate.png",
+    gitUrl: "https://github.com/Jun0613-spec/teammate",
+    previewUrl: "https://teammate-ten.vercel.app/"
   },
   {
     id: 3,
+    title: "Graphy",
+    description:
+      "Graphy is Full stack graphic design SaaS web application using with React, Next.js, next auth, TailwindCSS, Drizzle ORM, PostgreSQL,Uploadthing, Stripe, Fabric.js, Hono, Replicate for AI image generating. ",
+    subdescription: "Subscription test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
+    image: "/projects/graphy.png",
+    gitUrl: "https://github.com/Jun0613-spec/graphy",
+    previewUrl: "https://graphy-design.vercel.app/"
+  },
+  {
+    id: 4,
     title: "Blog App",
     description:
       "Blog app using with React, Typescirpt, Tailwind Css, Spring boot, MySQL",
     image: "/projects/blogfy.png",
     gitUrl: "https://github.com/Jun0613-spec/blog-frontend",
-    previewUrl: "https://blog-frontend-one-hazel.vercel.app/",
+    previewUrl: "https://blog-frontend-one-hazel.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Food Ordering App Tap",
     description:
       "Food ordering app with React,typescript, cloudinary, stripe, mongoDB, express, nodejs, tailwindCss",
     image: "/projects/tap.png",
+    subdescription: "Test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
     gitUrl: "https://github.com/Jun0613-spec/tap-frontend",
-    previewUrl: "https://tap-food-ordering.onrender.com/",
+    previewUrl: "https://tap-food-ordering.onrender.com/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Bitcoin Currency App",
     description:
       "Bitcoin Currency App using with React, Firebase, Bitcoin currenty Api, tailwind css",
     image: "/projects/crypto.png",
     gitUrl: "https://github.com/Jun0613-spec/cryptoapp-clone",
-    previewUrl: "https://cryptobase-73222.web.app/",
+    previewUrl: "https://cryptobase-73222.web.app/"
   },
   {
-    id: 6,
+    id: 7,
     title: "Booking bnb",
     description:
       "Full stack Booking app  with Next.js App Router, Prisma, MongoDB, NextAuth",
     image: "/projects/airbnb.png",
     gitUrl: "https://github.com/Jun0613-spec/airbnb-clone-nextjs",
-    previewUrl: "https://rent-clone-blush.vercel.app/",
-  },
+    previewUrl: "https://rent-clone-blush.vercel.app/"
+  }
 ];
 
 const ProjectsSection = () => {
@@ -68,7 +82,7 @@ const ProjectsSection = () => {
 
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
+    animate: { y: 0, opacity: 1 }
   };
 
   return (
@@ -91,6 +105,7 @@ const ProjectsSection = () => {
               key={project.id}
               title={project.title}
               description={project.description}
+              subdescription={project.subdescription}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
               previewUrl={project.previewUrl}
