@@ -8,16 +8,20 @@ const skills = [
   { skill: "Java" },
   { skill: "React" },
   { skill: "Next.js" },
+  { skill: "Express.js" },
+  { skill: "Prisma ORM" },
+  { skill: "Drizzle ORM" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
   { skill: "Spring Boot" },
   { skill: "MySQL" },
-  { skill: "Jquery" },
+  { skill: "React-query" },
+  { skill: "Zustand" },
   { skill: "NodeJS" },
   { skill: "MongoDB" },
   { skill: "Postgresql" },
-  { skill: "Debugging" },
+  { skill: "Debugging" }
 ];
 
 const AboutSection = () => {
