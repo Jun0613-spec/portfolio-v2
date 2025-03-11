@@ -17,15 +17,6 @@ const projectsData = [
     previewUrl: "https://planit-project.vercel.app/"
   },
   {
-    title: "Teammate",
-    description:
-      "Teammate is Full stack team messenger application using with React, Next.js, Auth.js, TailwindCSS, Convex, React hook ",
-    subdescription: "Test user : test@test.com | test1234",
-    image: "/projects/teammate.png",
-    gitUrl: "https://github.com/Jun0613-spec/teammate",
-    previewUrl: "https://teammate-ten.vercel.app/"
-  },
-  {
     title: "Graphy",
     description:
       "Graphy is Full stack graphic design SaaS web application using with React, Next.js, next auth, TailwindCSS, Drizzle ORM, PostgreSQL,Uploadthing, Stripe, Fabric.js, Hono, Replicate for AI image generating. ",
