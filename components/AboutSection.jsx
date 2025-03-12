@@ -1,27 +1,58 @@
 import React from "react";
 
+// const skills = [
+//   { skill: "HTML" },
+//   { skill: "CSS" },
+//   { skill: "JavaScript" },
+//   { skill: "TypeScript" },
+//   { skill: "Java" },
+//   { skill: "React" },
+//   { skill: "Next.js" },
+//   { skill: "Express.js" },
+//   { skill: "Prisma ORM" },
+//   { skill: "Drizzle ORM" },
+//   { skill: "Tailwind CSS" },
+//   { skill: "Git" },
+//   { skill: "GitHub" },
+//   { skill: "Spring Boot" },
+//   { skill: "MySQL" },
+//   { skill: "React-query" },
+//   { skill: "Zustand" },
+//   { skill: "NodeJS" },
+//   { skill: "MongoDB" },
+//   { skill: "Postgresql" },
+//   { skill: "Debugging" }
+// ];
+
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Java" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Express.js" },
-  { skill: "Prisma ORM" },
-  { skill: "Drizzle ORM" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Spring Boot" },
-  { skill: "MySQL" },
-  { skill: "React-query" },
-  { skill: "Zustand" },
-  { skill: "NodeJS" },
-  { skill: "MongoDB" },
-  { skill: "Postgresql" },
-  { skill: "Debugging" }
+  {
+    category: "Languages",
+    items: ["JavaScript", "TypeScript", "Java"]
+  },
+  {
+    category: "Front-End",
+    items: ["React", "Next.js", "Tailwind CSS", "HTML", "CSS"]
+  },
+  { category: "Back-End", items: ["Node.js", "Express.js", "Spring Boot"] },
+  {
+    category: "State Management & Data Fetching",
+    items: ["Zustand", "React Query"]
+  },
+  {
+    category: "Database & Tools",
+    items: [
+      "Prisma ORM",
+      "Drizzle ORM",
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Git",
+      "GitHub",
+      "Firebase",
+      "Docker",
+      "Postman"
+    ]
+  }
 ];
 
 const AboutSection = () => {
@@ -67,16 +98,23 @@ const AboutSection = () => {
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
-                return (
-                  <p
-                    key={idx}
-                    className="bg-zinc-200 px-4 py-2 mr-2 mt-2 text-zinc-500 rounded font-semibold"
-                  >
-                    {item.skill}
-                  </p>
-                );
-              })}
+              {skills.map((section, idx) => (
+                <div key={idx}>
+                  <h2 className="font-semibold text-lg text-teal-500">
+                    {section.category}
+                  </h2>
+                  <div className="flex flex-wrap justify-center md:justify-start">
+                    {section.items.map((skill, index) => (
+                      <p
+                        key={index}
+                        className="bg-zinc-200 px-4 py-2 mr-2 mt-2 text-zinc-500 rounded font-semibold"
+                      >
+                        {skill}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
