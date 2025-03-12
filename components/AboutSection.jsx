@@ -1,29 +1,5 @@
 import React from "react";
 
-// const skills = [
-//   { skill: "HTML" },
-//   { skill: "CSS" },
-//   { skill: "JavaScript" },
-//   { skill: "TypeScript" },
-//   { skill: "Java" },
-//   { skill: "React" },
-//   { skill: "Next.js" },
-//   { skill: "Express.js" },
-//   { skill: "Prisma ORM" },
-//   { skill: "Drizzle ORM" },
-//   { skill: "Tailwind CSS" },
-//   { skill: "Git" },
-//   { skill: "GitHub" },
-//   { skill: "Spring Boot" },
-//   { skill: "MySQL" },
-//   { skill: "React-query" },
-//   { skill: "Zustand" },
-//   { skill: "NodeJS" },
-//   { skill: "MongoDB" },
-//   { skill: "Postgresql" },
-//   { skill: "Debugging" }
-// ];
-
 const skills = [
   {
     category: "Languages",
