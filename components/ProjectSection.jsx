@@ -7,6 +7,15 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
+    title: "Stay",
+    description:
+      "MERN stack accommodations booking web app Frontend stack - React, Vite, Typescirpt, Tailwind CSS, React Context Api, react-query, axios Backend stack - Node.js, Express, Typescript, Stripe, MongoDB, PrismaORM, Google-oauth, Cloudinary, jsonwebtoken",
+    subdescription: "Subscription test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
+    image: "/projects/stay.png",
+    gitUrl: "https://github.com/Jun0613-spec/stay-mern",
+    previewUrl: "https://stay-client.onrender.com/"
+  },
+  {
     title: "Planit",
     description:
       "Planit is Full stack project & task management web application using with React, Next.js, Typescript, NextAuth, TailwindCSS, Drizzle ORM, PostgreSQL, React-query, Hono.js, Cloudinary, Zustand, Shadcn-ui ",
