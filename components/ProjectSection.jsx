@@ -9,6 +9,14 @@ const projectsData = [
   {
     title: "Stay",
     description:
+      "Full stack social media app Frontend stack - React, Vite, Typescirpt, Tailwind CSS, React Context Api, Zustand, react-query, axios, socket.io Backend stack - Node.js, Express, TypeScript, Postgresql, Prisma ORM, Google OAuth, Cloudinary for image uploads, JSON Web Token (JWT) Authentication, Soket.io",
+    image: "/projects/strings.png",
+    gitUrl: "https://github.com/Jun0613-spec/full-stack-social-media-strings",
+    previewUrl: "https://strings-client.onrender.com/"
+  },
+  {
+    title: "Stay",
+    description:
       "MERN stack accommodations booking web app Frontend stack - React, Vite, Typescirpt, Tailwind CSS, React Context Api, react-query, axios Backend stack - Node.js, Express, Typescript, Stripe, MongoDB, PrismaORM, Google-oauth, Cloudinary, jsonwebtoken",
     subdescription: "Subscription test card  [ 4242 4242 4242 4242 | 12 / 34 ]",
     image: "/projects/stay.png",
