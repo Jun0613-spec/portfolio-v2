@@ -7,7 +7,7 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
-    title: "Stay",
+    title: "Strings",
     description:
       "Full stack social media app Frontend stack - React, Vite, Typescirpt, Tailwind CSS, React Context Api, Zustand, react-query, axios, socket.io Backend stack - Node.js, Express, TypeScript, Postgresql, Prisma ORM, Google OAuth, Cloudinary for image uploads, JSON Web Token (JWT) Authentication, Soket.io",
     image: "/projects/strings.png",
